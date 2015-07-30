@@ -51,14 +51,30 @@ main {
 
 .entry-title a {
   text-decoration: none;
+  color:#3D3C40;
 }
 
+.entry-title a:hover {
+  color: #4078c0;
+  text-decoration: none;
+}
 .entry-meta {
   display: inline-block;
   margin-bottom: 2rem;
   font-size: 1.7rem;
   color: #888;
 }
+
+.entry-meta a {
+    color: #ABB8C2;
+    text-decoration: none;
+}
+
+.entry-meta a:hover {
+    color: #4078c0;
+    text-decoration: none;
+}
+
 
 .footer-link {
   margin: 2rem 0;
@@ -71,6 +87,16 @@ main {
   background: -webkit-gradient(linear, left top, right top, from(white), color-stop(#E1E1E1), to(white));
   background: -webkit-linear-gradient(left, white, #E1E1E1, white);
   background: linear-gradient(to right, white, #E1E1E1, white);
+}
+
+a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4078c0;
+  text-decoration: underline;
 }
 
 .share .twitter, .share .facebook, .share .pocket, .share .hatena {
