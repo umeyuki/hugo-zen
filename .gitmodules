@@ -1,0 +1,3 @@
+[submodule "hugo-zen"]
+	path = hugo-zen
+	url = https://github.com/umeyuki/hugo-zen.git
